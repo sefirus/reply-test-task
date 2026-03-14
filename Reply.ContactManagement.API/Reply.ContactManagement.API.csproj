@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Reply.ContactManagement.Application\Reply.ContactManagement.Application.csproj" />
+    <ProjectReference Include="..\Reply.ContactManagement.Core\Reply.ContactManagement.Core.csproj" />
+  </ItemGroup>
+
 </Project>
